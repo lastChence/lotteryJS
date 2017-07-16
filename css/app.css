@@ -1,0 +1,50 @@
+body {
+    background-color: #fafafa;
+    color: #757575;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winner-list {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #ddd;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.winner-list:hover {
+  background-color: #ccc;
+}
+
+.blockbtn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#user-form {
+  margin-top: 20px;
+}
+
+.textfield {
+  display: none;
+}
+
+.editing .title {
+  display: none;
+}
+
+.editing .textfield {
+  display: block;
+}
