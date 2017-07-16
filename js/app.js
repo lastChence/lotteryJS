@@ -105,7 +105,7 @@
         surnameInput = document.getElementById('surname-input'),
         emailInput = document.getElementById('email-input'),
         phoneInput = document.getElementById('phone-input'),
-        birsdayInput = document.getElementById('birthday-input')
+        birsdayInput = document.getElementById('birthday-input'),
         todolist = document.getElementById('list-item'),
         todoItem = document.querySelectorAll('.item'),
         winnerBtn = document.getElementById('winner');
